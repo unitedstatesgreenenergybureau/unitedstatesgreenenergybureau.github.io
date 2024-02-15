@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 20px;
   background-color: #c2c9f9;
+  font-family: monospace;
 }
 
 header {
@@ -12,6 +13,7 @@ header {
   align-items: center;
   background-color: #75c484;
   padding: 10px 20px;
+  border-radius: 15PX;
 }
 
 nav {
@@ -47,6 +49,7 @@ section {
   text-align: center;
   padding: 20px;
   background-color: #75c484;
+  border-radius: 15PX;
 }
 
 #highlights .highlights-wrapper {
@@ -61,11 +64,15 @@ section {
   padding: 10px;
   border: 1px solid #ddd;
   background-color: #f5ff95;
+  border-radius: 15PX;
 }
 
 #news {
   list-style: none;
   padding: 0;
+  background-color: #f5ff95;
+  border-radius: 15PX;
+  padding: 2%;
 }
 
 #news li {
@@ -76,6 +83,7 @@ footer {
   text-align: center;
   padding: 10px;
   background-color: #eee;
+  border-radius: 15PX;
 }
 
 /* You can add more styles here to customize the look and feel of your website */
