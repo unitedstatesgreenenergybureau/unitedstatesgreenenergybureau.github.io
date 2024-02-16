@@ -1,72 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>United States Green Energy Bureau</title>
-    <link rel="stylesheet" href="style.css"> </head>
-<body>
-    <header>
-        <h1>United States Green Energy Bureau</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Programs</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">News & Events</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+/* Basic styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #c2c9f9;
+  font-family: monospace;
+}
 
-    <main>
-        <section id="banner">
-            <h2>Powering a Sustainable Future</h2>
-            <p>Leading the transition to a clean energy economy.</p>
-            <a href="#" id="popuplink">Learn More</a>
-        </section>
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #75c484;
+  padding: 10px 20px;
+  border-radius: 15PX;
+}
 
-        <section id="highlights">
-            <h2>Key Initiatives</h2>
-            <div class="highlights-wrapper">
-                <div class="highlight">
-                    <h3><a href="#">Solar Energy Grants</a></h3>
-                    <p>Supporting the development and deployment of solar power.</p>
-                </div>
-                <div class="highlight">
-                    <h3><a href="#">Wind Energy Research</a></h3>
-                    <p>Advancing technology for efficient and affordable wind energy.</p>
-                </div>
-                <div class="highlight">
-                    <h3><a href="#">Grid Modernization</a></h3>
-                    <p>Building a smarter and more resilient electricity grid.</p>
-                </div>
-            </div>
-        </section>
+nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-        <section id="news">
-            <h2>Latest News</h2>
-            <ul>
-                <li><a href="#">New Funding Announced for Geothermal Energy Projects</a></li>
-                <li><a href="#">US Green Energy Bureau Hosts National Clean Energy Summit</a></li>
-                <li><a href="#">Report: Renewable Energy Now Accounts for 25% of US Electricity Generation</a></li>
-            </ul>
-        </section>
-    
- <div id="modal-window" class="hidden">
-  <div class="modal-content" id="modal-content">
-    <h1>Hello</h1>
-  </div>
-  <button id="close-button">Close</button>
- </div>
+nav li {
+  margin-right: 20px;
+}
 
+nav a {
+  color: #000;
+  text-decoration: none;
+}
 
-    </main>
+nav a:hover {
+  text-decoration: line-through;
+  color: #3366CC;
+}
 
-    <footer>
-        <p>&copy; 2024 United States Green Energy Bureau</p>
-    </footer>
+main {
+  padding: 20px;
+}
 
-</body>
-</html>
+section {
+  margin-bottom: 20px;
+}
+
+#banner {
+  text-align: center;
+  padding: 20px;
+  background-color: #75c484;
+  border-radius: 15PX;
+}
+
+#highlights .highlights-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.highlight {
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f5ff95;
+  border-radius: 15PX;
+}
+
+#news {
+  list-style: none;
+  padding: 0;
+  background-color: #f5ff95;
+  border-radius: 15PX;
+  padding: 2%;
+}
+
+#news li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 15PX;
+}
+#modal-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* or a smaller height depending on content */
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center; /* vertical centering */
+  background-color: rgba(0, 0, 0, 0.5); /* darkens the background */
+}
+.modal-content {
+  background-color: white; /* or desired background color */
+  padding: 20px;
+  border-radius: 5px;
+   border-radius: 30;
+  text-align: center; /* or preferred text alignment */
+}
+#modal-content {
+  border-radius: 15px;
+}
+#close-button {
+  margin-left: 5%;
+}
+
+.hidden {
+  display:none;
+}
+/* You can add more styles here to customize the look and feel of your website */
+
