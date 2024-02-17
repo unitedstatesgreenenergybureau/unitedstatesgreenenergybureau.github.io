@@ -116,7 +116,10 @@ footer {
 }
 #popuplink {
   background: #c2c9f9;
+  border-radius: 15px;
+  padding: 5px;
 }
 .hidden {
   display:none;
 }
+
