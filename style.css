@@ -98,18 +98,25 @@ footer {
 }
 .modal-content {
   background-color: white; /* or desired background color */
-  padding: 20px;
+  padding: 5px;
   border-radius: 5px;
-   border-radius: 30;
-  text-align: center; /* or preferred text alignment */
+  text-align: left; /* or preferred text alignment */
 }
 #modal-content {
   border-radius: 15px;
 }
 #close-button {
-  margin-left: 5%;
+  margin-top: 90px;
+  padding: 5px;
+  border-radius: 15px;
+  background: #75c484;
 }
-
+#close-button:hover {
+  background: #c2c9f9;
+}
+#popuplink {
+  background: #c2c9f9;
+}
 .hidden {
   display:none;
 }
