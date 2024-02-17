@@ -1,5 +1,3 @@
-
-
 function toggleModal() {
   const modalchild = document.getElementById('modal-window');
   const modal = modalchild.parentNode;
