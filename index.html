@@ -26,7 +26,7 @@
         <section id="banner">
             <h2>Powering a Sustainable Future</h2>
             <p>Leading the transition to a clean energy economy.</p>
-            <p id="popuplink">Learn More</p>
+            <button onclick=toggleModal(); id="popuplink">Learn More</button>
         </section>
 
         <section id="highlights">
@@ -55,12 +55,12 @@
                 <li><a href="#">Report: Renewable Energy Now Accounts for 25% of US Electricity Generation</a></li>
             </ul>
         </section>
- <div class="">    
+ <div class="hidden">
    <div id="modal-window">
-    <div class="modal-content" id="modal-content">
-      <h1>Hello</h1>
-      <p id="close-button">Close Window</p>
-    </div>
+      <div class="modal-content" id="modal-content">
+        <h1>Hello</h1>
+        <button onclick=toggleModal(); id="close-button">Close Window</button>
+      </div>
    </div>
  </div>
 
