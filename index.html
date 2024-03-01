@@ -37,7 +37,7 @@
                     <p>Supporting the development and deployment of solar power.</p>
                 </div>
                 <div class="highlight">
-                    <h3><a href="#">Wind Energy Research</a></h3>
+                    <h3><button id="wer_open-link" onclick=wer_toggleModal();>Wind Energy Research</button></h3>
                     <p>Advancing technology for efficient and affordable wind energy.</p>
                 </div>
                 <div class="highlight">
@@ -65,6 +65,15 @@ In addition to federal grant programs, many states, municipalities, utilities, a
         
       </div>
      <button onclick=seg_toggleModal(); id="seg_close-button">Close Window</button>
+   </div>
+ </div>
+
+ <div class="hidden">
+   <div id="wer_modal-window">
+      <div class="wer_modal-content" id="wer_modal-content">
+        <h1>Hello</h1>
+        <button onclick=wer_toggleModal(); id="wer_close-button">Close Window</button>
+      </div>
    </div>
  </div>
 
