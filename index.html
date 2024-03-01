@@ -33,7 +33,7 @@
             <h2>Key Initiatives</h2>
             <div class="highlights-wrapper">
                 <div class="highlight">
-                    <h3><a href="#">Solar Energy Grants</a></h3>
+                    <h3><button id = "seg_open-link" onclick=seg_toggleModal();>Solar Energy Grants</button></h3>
                     <p>Supporting the development and deployment of solar power.</p>
                 </div>
                 <div class="highlight">
@@ -56,11 +56,15 @@
             </ul>
         </section>
  <div class="hidden">
-   <div id="modal-window">
-      <div class="modal-content" id="modal-content">
-        <h1>Hello</h1>
-        <button onclick=toggleModal(); id="close-button">Close Window</button>
+   <div id="seg_modal-window">
+      <div class="seg_modal-content" id="seg_modal-content">
+        <p id = "seg_text">The US Green Energy Bureau offers various grant programs to support the adoption of solar energy systems by homeowners, businesses, nonprofit organizations, and government agencies. These grants help offset the upfront costs associated with installing solar panels and related equipment, making solar energy more accessible and affordable for a wide range of consumers.
+To apply for solar energy grants through the US Green Energy Bureau, interested parties should apply by visiting the link at the end of this page and review the eligibility requirements, application procedures, and deadlines. Grant applicants are typically required to submit project proposals outlining the scope, objectives, budget, and expected environmental and economic benefits of the proposed solar energy installation.
+In addition to federal grant programs, many states, municipalities, utilities, and private organizations offer financial incentives, tax credits, rebates, and low-interest loans to encourage solar energy adoption and investment. By taking advantage of these incentives and leveraging the expertise and resources of the US Green Energy Bureau, individuals and businesses can make significant strides toward a cleaner, more sustainable energy future with potentially no cost to you.
+</p>
+        
       </div>
+     <button onclick=seg_toggleModal(); id="seg_close-button">Close Window</button>
    </div>
  </div>
 
